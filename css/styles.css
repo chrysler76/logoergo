@@ -53,13 +53,11 @@ body {
 	background-repeat: no-repeat;
 	text-align: left;
 	float: left;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 70px;
+	padding-top: 60px;
 	padding-left: 80px;
+	margin: 0px;
 }
+
 #main_content_copy.scroll {
     overflow: scroll;
     height: 300px;
@@ -320,6 +318,36 @@ ul#navi_sidebar a {
 	font-weight: lighter;
 	color: #777;
 	font-variant: normal;
+}
+.h1_impressum {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 12px;
+	font-weight: bolder;
+	color: #A0CC3A;
+	font-variant: normal;
+	margin-bottom: 8px;
+}
+.h2_impressum {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 12px;
+	font-weight: bolder;
+	color: #777;
+	font-variant: normal;
+	margin-bottom: 5px;
+}
+.copy_impressum {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 12px;
+	font-weight: lighter;
+	color: #777;
+	font-variant: normal;
+	margin-bottom: 12px;
 }
 ul#content {
 	list-style-type: disc;
