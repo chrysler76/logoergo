@@ -39,6 +39,11 @@ body {
     height: 246px;
     width: 1024px;
 }
+#header_ergo {
+    background-image: url(../img/header_ergo.png);
+    height: 246px;
+    width: 1024px;
+}
 #main_content {
     background-image: url(../img/main_content.png);
     height: 500px;
@@ -119,6 +124,10 @@ ul#navigation_oben li:hover a.home {
     background-image: url(../img/navi_button_home_over.png);
 }
 
+a.home.active.ergo,
+ul#navigation_oben li:hover a.home.ergo {
+    background-image: url(../img/navi_button_home_over_ergo.png);
+}
 /*oeffnungszeiten*/
 
 a.oeffnungszeiten {
