@@ -388,3 +388,8 @@ p.copy a {
 	color: #777;
 	font-variant: normal;
 }
+
+#form_msg {
+    width: 350px;
+    height: 200px;
+}

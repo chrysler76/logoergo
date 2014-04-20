@@ -42,6 +42,7 @@
         </div>
         <div id="main_content">
             <div id="main_content_copy">
+                <!--
                 <p class="headline1_logo">
                     So können Sie uns erreichen
                 </p>
@@ -59,6 +60,14 @@
                     <br />Mail:
                     <a href="mailto:logopraxis.koenig_AT_gmail_PUNKT_com">logopraxis.koenig_AT_gmail_PUNKT_com</a>
                 </p>
+                -->
+                <form action="kontakt.php" method="post">
+                    <p>Name:<br/><input id="form_name" type="text" name="name" title="Name" size="20" /></p>
+                    <p>EMail:<br/><input id="form_email" type="email" name="email" title="EMail" size="20" /></p>
+                    <p>Betreff:<br/><input id="form_subject" type="text" name="subject" title="Betreff" size="20" /></p>
+                    <p>Nachricht:<br/><textarea id="form_msg" name="text" title="Nachricht" rows="5"></textarea></p>
+                    <p><input id="form_submit" type="submit" name="Senden" title="Senden" /></p>
+                </form>
             </div>
         </div>
         <div id="sidebar">
