@@ -291,7 +291,7 @@ ul#navi_sidebar a {
 /*rules for fonts */
 .headline1_logo {
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: italic;
 	line-height: normal;
 	font-weight: bolder;
@@ -299,13 +299,14 @@ ul#navi_sidebar a {
 }
 .headline2_logo {
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 14px;
-	font-style: normal;
+	font-size: 12px;
+	font-style: italic;
 	line-height: normal;
-	font-weight: 100;
+	font-weight: bolder;
 	color: #777;
 }
 .copy {
+
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
 	font-style: normal;
@@ -325,3 +326,15 @@ ul#content {
 	color: #777;
 	font-variant: normal;
 	padding-left: 18px;
+
+}
+ul.galerie {
+    list-style-type: none;
+}
+img.galerie {
+    width: 350px;
+}
+
+ul.galerie li.small img {
+    width: 50px;
+}
