@@ -60,6 +60,12 @@ body {
 	padding-top: 70px;
 	padding-left: 80px;
 }
+#main_content_copy.scroll {
+    overflow: scroll;
+    height: 300px;
+    margin-top: 70px;
+}
+
 #sidebar {
     background-image: url(../img/sidebar.png);
     height: 500px;
@@ -337,4 +343,17 @@ img.galerie {
 
 ul.galerie li.small img {
     width: 50px;
+}
+
+p.maps,
+p.maps a,
+p.copy a {
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 15px;
+	font-weight: lighter;
+	color: #777;
+	font-variant: normal;
 }
