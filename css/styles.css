@@ -20,11 +20,12 @@ body {
     background-color: #FFF;
 }
 #container {
-    height: 800px;
-    width: 1024px;
-    background-image: url(../img/BG_Tresen_sw.jpg);
-    background-position: center 248px;
-    background-repeat: no-repeat;
+	height: 800px;
+	width: 1024px;
+	background-image: url(../img/BG_Tresen_sw.jpg);
+	background-position: center 248px;
+	background-repeat: no-repeat;
+	margin-top: 0px;
 }
 #container_intro {
     height: 800px;
