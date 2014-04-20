@@ -1,0 +1,274 @@
+@charset "UTF-8";
+* {padding:0; margin:0;}
+
+body {
+    /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	margin: auto; 
+	padding: 0;
+    /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	text-align: center; 
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: relative;
+	width: 1024px;
+	background-color: #FFF;
+}
+#container {
+	height: 800px;
+	width: 1024px;
+	background-image: url(../img/BG_Tresen_sw.jpg);
+	background-position: center 248px;
+	background-repeat: no-repeat;
+}
+#container_intro {
+	height: 800px;
+	width: 1024px;
+	background-image: url(../img/intro.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+#header {
+	background-image: url(../img/header.png);
+	height: 246px;
+	width: 1024px;
+}
+#main_content {
+	background-image: url(../img/main_content.png);
+	height: 500px;
+	width: 585px;
+	float: right;
+	margin-right: 31px;
+	background-repeat: no-repeat;
+}
+#sidebar {
+	background-image: url(../img/sidebar.png);
+	height: 500px;
+	width: 408px;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+/*rules for navigation_oben */
+
+#navigation_oben {
+	font-family: verdana;
+	font-size: 14px;
+	color: #DDD;
+	width: 1024px;
+	height: 246;
+	padding-left: 485px;
+	padding-top: 73px;
+}
+ul#navigation_oben {
+	list-style-type:none
+	}
+ul#navigation_oben li{
+	width: auto;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin: 6px;
+	}
+ul#navigation_oben a {
+	text-decoration: none;
+	display: block;
+	width: auto;
+	height: 20px;
+	line-height: 25px;
+	}
+
+/*home*/
+a.home {
+    display: block;
+    background-image: url(../img/navi_button_home.png);
+    width: 238px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+/*home*/
+a.home.active,
+ul#navigation_oben li:hover a.home {
+    background-image: url(../img/navi_button_home_over.png);
+}
+
+
+/*oeffnungszeiten*/
+a.oeffnungszeiten {
+	display: 238px;
+	background-image: url(../img/navi_button_oeffnungszeiten.png);
+	width: auto;
+	height: 20px;
+	background-repeat: no-repeat;
+	}
+a.oeffnungszeiten.active,
+ul#navigation_oben li:hover a.oeffnungszeiten {
+    background-image: url(../img/navi_button_oeffnungszeiten_over.png);
+}
+
+/*kontakt*/
+a.kontakt {
+    display: block;
+    background-image: url(../img/navi_button_kontakt.png);
+    width: 238px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+a.kontakt.active,
+ul#navigation_oben li:hover a.kontakt {
+    background-image: url(../img/navi_button_kontakt_over.png);
+}
+
+/*anfahrt*/
+a.anfahrt {
+    display: block;
+    background-image: url(../img/navi_button_anfahrt.png);
+    width: 238px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+a.anfahrt.active,
+ul#navigation_oben li:hover a.anfahrt {
+    background-image: url(../img/navi_button_anfahrt_over.png);
+}
+
+/*galerie*/
+a.galerie {
+    display: block;
+    background-image: url(../img/navi_button_galerie.png);
+    width: 238px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+a.galerie.active,
+ul#navigation_oben li:hover a.galerie {
+    background-image: url(../img/navi_button_galerie_over.png);
+}
+
+/*kinder*/
+a.kinder {
+    display: block;
+    background-image: url(../img/navi_button_kinder.png);
+    width: 238px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+a.kinder.active,
+ul#navi_sidebar li:hover a.kinder {
+    background-image: url(../img/navi_button_kinder_over.png);
+}
+
+/*erwachsene*/
+a.erwachsene {
+    display: block;
+    background-image: url(../img/navi_button_erwachsene.png);
+    width: 238px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+a.erwachsene.active,
+ul#navi_sidebar li:hover a.erwachsene {
+    background-image: url(../img/navi_button_erwachsene_over.png);
+}
+
+/*logopaedie*/
+a.wasistlogopaedie {
+    display: block;
+    background-image: url(../img/navi_button_was_ist_logopaedie.png);
+    width: 238px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+a.wasistlogopaedie.active,
+ul#navi_sidebar li:hover a.wasistlogopaedie {
+    background-image: url(../img/navi_button_was_ist_logopaedie_over.png);
+}
+
+/*impressum*/
+a.impressum {
+    display: block;
+    background-image: url(../img/navi_button_impressum.png);
+    width: 238px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+a.impressum.active,
+ul#navi_sidebar li:hover a.impressum {
+    background-image: url(../img/navi_button_impressum_over.png);
+}
+
+/*mouseover hack*/
+a.home img {
+    visibility: hidden;
+    border: none;
+}
+a.oeffnungszeiten img {
+    visibility: hidden;
+    border: none;
+}
+a.kontakt img {
+    visibility: hidden;
+    border: none;
+}
+a.anfahrt img {
+    visibility: hidden;
+    border: none;
+}
+a.galerie img {
+    visibility: hidden;
+    border: none;
+}
+a.kinder img {
+    visibility: hidden;
+    border: none;
+}
+a.erwachsene img {
+    visibility: hidden;
+    border: none;
+}
+a.wasistlogopaedie img {
+    visibility: hidden;
+    border: none;
+}
+a.impressum img {
+    visibility: hidden;
+    border: none;
+}
+	
+/*rules for navigation_sidebar */
+#navi_sidebar {
+	width: 240px;
+	float: right;
+	margin-right: 22px;
+	padding-top: 50px;
+}
+ul#navi_sidebar {
+	list-style-type:none
+	}
+ul#navi_sidebar li{
+	width: 238px;
+	text-align: center;
+	position: relative;
+	margin: 7px;
+	}
+ul#navi_sidebar a {
+	text-decoration: none;
+	display: block;
+	width: 238px;
+	height: 38px;
+	line-height: 25px;
+	}
+
+
+
+
+
+
+
+
+
+
+
