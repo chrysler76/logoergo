@@ -119,8 +119,6 @@ a.home {
     background-repeat: no-repeat;
 }
 
-/*home*/
-
 a.home.active,
 ul#navigation_oben li:hover a.home {
     background-image: url(../img/navi_button_home_over.png);
@@ -130,6 +128,7 @@ a.home.active.ergo,
 ul#navigation_oben li:hover a.home.ergo {
     background-image: url(../img/navi_button_home_over_ergo.png);
 }
+
 /*oeffnungszeiten*/
 
 a.oeffnungszeiten {
@@ -142,6 +141,11 @@ a.oeffnungszeiten {
 a.oeffnungszeiten.active,
 ul#navigation_oben li:hover a.oeffnungszeiten {
     background-image: url(../img/navi_button_oeffnungszeiten_over.png);
+}
+
+a.oeffnungszeiten.active.ergo,
+ul#navigation_oben li:hover a.oeffnungszeiten.ergo {
+    background-image: url(../img/navi_button_oeffnungszeiten_over_ergo.png);
 }
 
 /*kontakt*/
@@ -158,6 +162,11 @@ ul#navigation_oben li:hover a.kontakt {
     background-image: url(../img/navi_button_kontakt_over.png);
 }
 
+a.kontakt.active.ergo,
+ul#navigation_oben li:hover a.kontakt.ergo {
+    background-image: url(../img/navi_button_kontakt_over_ergo.png);
+}
+
 /*anfahrt*/
 
 a.anfahrt {
@@ -172,6 +181,11 @@ ul#navigation_oben li:hover a.anfahrt {
     background-image: url(../img/navi_button_anfahrt_over.png);
 }
 
+a.anfahrt.active.ergo,
+ul#navigation_oben li:hover a.anfahrt.ergo {
+    background-image: url(../img/navi_button_anfahrt_over_ergo.png);
+}
+
 /*galerie*/
 
 a.galerie {
@@ -184,6 +198,11 @@ a.galerie {
 a.galerie.active,
 ul#navigation_oben li:hover a.galerie {
     background-image: url(../img/navi_button_galerie_over.png);
+}
+
+a.galerie.active.ergo,
+ul#navigation_oben li:hover a.galerie.ergo {
+    background-image: url(../img/navi_button_galerie_over_ergo.png);
 }
 
 /*kinder*/
@@ -242,6 +261,67 @@ ul#navi_sidebar li:hover a.impressum {
     background-image: url(../img/navi_button_impressum_over.png);
 }
 
+a.impressum.active.ergo,
+ul#navi_sidebar li:hover a.impressum.ergo {
+    background-image: url(../img/navi_button_impressum_over_ergo.png);
+}
+
+/*behandlung*/
+
+a.behandlung {
+    display: block;
+    background-image: url(../img/navi_button_behandlung.png);
+    width: 238px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+a.behandlung.active,
+ul#navi_sidebar li:hover a.behandlung {
+    background-image: url(../img/navi_button_behandlung_over.png);
+}
+
+/*schienen*/
+
+a.schienen {
+    display: block;
+    background-image: url(../img/navi_button_schienen.png);
+    width: 238px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+a.schienen.active,
+ul#navi_sidebar li:hover a.schienen {
+    background-image: url(../img/navi_button_schienen_over.png);
+}
+
+/*spektrum*/
+
+a.spektrum {
+    display: block;
+    background-image: url(../img/navi_button_spektrum.png);
+    width: 238px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+a.spektrum.active,
+ul#navi_sidebar li:hover a.spektrum {
+    background-image: url(../img/navi_button_spektrum_over.png);
+}
+
+/*ergotherapie*/
+
+a.ergotherapie {
+    display: block;
+    background-image: url(../img/navi_button_was_ist_ergo.png);
+    width: 238px;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+a.ergotherapie.active,
+ul#navi_sidebar li:hover a.ergotherapie {
+    background-image: url(../img/navi_button_was_ist_ergo_over.png);
+}
+
 /*mouseover hack*/
 a.home img {
     visibility: hidden;
@@ -276,6 +356,23 @@ a.wasistlogopaedie img {
     border: none;
 }
 a.impressum img {
+    visibility: hidden;
+    border: none;
+}
+
+a.schienen img {
+    visibility: hidden;
+    border: none;
+}
+a.spektrum img {
+    visibility: hidden;
+    border: none;
+}
+a.behandlung img {
+    visibility: hidden;
+    border: none;
+}
+a.ergotherapie img {
     visibility: hidden;
     border: none;
 }
