@@ -61,8 +61,10 @@ body {
 
 #main_content_copy.scroll {
     overflow: scroll;
+    overflow-x: hidden;
     height: 300px;
     margin-top: 70px;
+    padding-right: 50px;
 }
 
 #sidebar {
