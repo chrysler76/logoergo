@@ -312,3 +312,15 @@ ul#navi_sidebar a {
     color: #777;
     font-variant: normal;
 }
+
+ul.galerie {
+    list-style-type: none;
+}
+img.galerie {
+    width: 350px;
+}
+
+ul.galerie li.small img {
+    width: 50px;
+}
+
