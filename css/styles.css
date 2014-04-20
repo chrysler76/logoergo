@@ -35,19 +35,17 @@ body {
     background-repeat: no-repeat;
 }
 #header {
-    background-image: url(../img/header.png) map;
+    background-image: url(../img/header.png);
     height: 246px;
     width: 1024px;
     
 }
 img#homelink {
-    width: 200px;
-    height: 200px;
     border: 0;
     position: absolute;
     left: 0;
     top: 0;
-    
+    opacity: 0.0;
 }
 #header_ergo {
     background-image: url(../img/header_ergo.png);
