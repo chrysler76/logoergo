@@ -66,8 +66,10 @@ body {
 
 #main_content_copy.scroll {
     overflow: scroll;
+    overflow-x: hidden;
     height: 300px;
     margin-top: 70px;
+    padding-right: 50px;
 }
 
 #sidebar {
@@ -394,4 +396,9 @@ p.copy a {
 	font-weight: lighter;
 	color: #777;
 	font-variant: normal;
+}
+
+#form_msg {
+    width: 350px;
+    height: 200px;
 }
