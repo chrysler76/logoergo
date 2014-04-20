@@ -44,6 +44,19 @@ body {
 	margin-right: 31px;
 	background-repeat: no-repeat;
 }
+#main_content_copy {
+	background-image: none;
+	height: 500px;
+	width: 400px;
+	background-repeat: no-repeat;
+	text-align: left;
+	float: none;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 70px;
+}
 #sidebar {
 	background-image: url(../img/sidebar.png);
 	height: 500px;
@@ -260,6 +273,32 @@ ul#navi_sidebar a {
 	width: 238px;
 	height: 38px;
 	line-height: 25px;
+	}
+/*rules for fonts */
+
+.headline1_logo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: 100;
+	color: #A0CC3A;
+	}
+.headline2_logo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: 100;
+	}
+.copy {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: lighter;
+	color: #777;
+	font-variant: normal;
 	}
 
 
