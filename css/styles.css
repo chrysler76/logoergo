@@ -47,17 +47,18 @@ body {
     background-repeat: no-repeat;
 }
 #main_content_copy {
-    background-image: none;
-    height: 500px;
-    width: 400px;
-    background-repeat: no-repeat;
-    text-align: left;
-    float: none;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    padding-top: 70px;
+	background-image: none;
+	height: 500px;
+	width: 370px;
+	background-repeat: no-repeat;
+	text-align: left;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 70px;
+	padding-left: 80px;
 }
 #sidebar {
     background-image: url(../img/sidebar.png);
@@ -289,26 +290,38 @@ ul#navi_sidebar a {
 
 /*rules for fonts */
 .headline1_logo {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    font-style: italic;
-    line-height: normal;
-    font-weight: 100;
-    color: #A0CC3A;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: bolder;
+	color: #A0CC3A;
 }
 .headline2_logo {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 14px;
-    font-style: italic;
-    line-height: normal;
-    font-weight: 100;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: 100;
+	color: #777;
 }
 .copy {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 15px;
-    font-style: italic;
-    line-height: normal;
-    font-weight: lighter;
-    color: #777;
-    font-variant: normal;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 15px;
+	font-weight: lighter;
+	color: #777;
+	font-variant: normal;
 }
+ul#content {
+	list-style-type: disc;
+	color: #A0CC3A;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: lighter;
+	color: #777;
+	font-variant: normal;
+	padding-left: 18px;
