@@ -387,10 +387,10 @@ a.ergotherapie img {
 
 /*rules for navigation_sidebar */
 #navi_sidebar {
-    width: 240px;
-    float: right;
-    margin-right: 22px;
-    padding-top: 50px;
+	width: 240px;
+	float: right;
+	margin-right: 27px;
+	padding-top: 50px;
 }
 ul#navi_sidebar {
     list-style-type: none
@@ -418,12 +418,34 @@ ul#navi_sidebar a {
 	font-weight: bolder;
 	color: #A0CC3A;
 }
+
+.headline1_ergo {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	color: #777;
+}
+
 .headline2_logo {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
 	font-style: italic;
 	line-height: normal;
 	font-weight: bolder;
+	margin-bottom: 20px;
+	color: #777;
+}
+
+.headline2_ergo {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: bolder;
+	margin-bottom: 15px;
 	color: #777;
 }
 .copy {
@@ -434,6 +456,7 @@ ul#navi_sidebar a {
 	line-height: 15px;
 	font-weight: lighter;
 	color: #777;
+	margin-bottom: 15px;
 	font-variant: normal;
 }
 .h1_impressum {
