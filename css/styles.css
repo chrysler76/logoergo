@@ -533,22 +533,29 @@ p.copy a {
 }
 
 #index_logo {
-    height: 427px;
+    background: url(../img/into_left_logo.png);
     width: 414px;
+    height: 427px;
     margin-top: 50px;
     float: left;
     text-align: right;
         
 }
+#index_logo:hover {
+    background: url(../img/intro_left_logo_over.png);
+}
 
 #index_ergo {
-    
-    height: 427px;
+    background: url(../img/into_right_ergo.png);
     width: 387px;
+    height: 427px;
     margin: 0px;
     margin-top: 50px;
     float: right;
     text-align: left;
+}
+#index_ergo:hover {
+    background: url(../img/intro_right_ergo_over.png);
 }
 
 #index_inner {
@@ -562,3 +569,19 @@ p.copy a {
 }
 
 #index_log
+
+#idx_logo_img:hover {
+    background: url(../img/intro_left_logo_over.png);
+}
+
+#idx_logo_a {
+    height: 427px;
+    width: 414px;
+    display: block;
+}
+
+#index_ergo_a {
+    height: 427px;
+    width: 387px;
+    display: block;
+}
