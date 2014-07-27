@@ -30,7 +30,7 @@ body {
 #container_intro {
 	height: 800px;
 	width: 1024px;
-	background-image: url(../img/intro.png);
+	background-image: url(../img/intro_bg.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	margin-top: 30px;
@@ -530,4 +530,34 @@ p.copy a {
 #form_msg {
     width: 350px;
     height: 200px;
+}
+
+#index_logo {
+    
+    height: 427px;
+    width: 414px;
+    margin-top: 50px;
+    float: left;
+    text-align: right;
+        
+}
+
+#index_ergo {
+    
+    height: 427px;
+    width: 387px;
+    margin: 0px;
+    margin-top: 50px;
+    float: right;
+    text-align: left;
+}
+
+#index_inner {
+    
+    height: 427px;
+    width: 801px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
