@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>LOGOERGO Praxis für Logop&auml;die und Ergotherapie</title>
+    <title>LOGOERGO Praxis f&uuml;r Logop&auml;die und Ergotherapie</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -44,11 +44,11 @@
             <div id="main_content_copy">
                 <!--
                 <p class="headline1_logo">
-                    So können Sie uns erreichen
+                    So k&ouml;nnen Sie uns erreichen
                 </p>
                 <br />
                 <br />
-                <p class="headline2_logo">Maria-Theres König</p>
+                <p class="headline2_logo">Maria-Theres K&ouml;nig</p>
                 <br />
                 <br />
                 <p class="copy">Herthastraße 12
