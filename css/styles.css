@@ -416,8 +416,9 @@ ul#navi_sidebar a {
 	font-size: 16px;
 	font-style: italic;
 	line-height: normal;
-	font-weight: bolder;
+	font-weight: bold;
 	color: #A0CC3A;
+	margin-bottom: 20px;
 }
 
 .headline1_ergo {
@@ -425,7 +426,7 @@ ul#navi_sidebar a {
 	font-size: 16px;
 	font-style: italic;
 	line-height: normal;
-	font-weight: bolder;
+	font-weight: bold;
 	margin-bottom: 20px;
 	color: #777;
 }
@@ -435,8 +436,9 @@ ul#navi_sidebar a {
 	font-size: 12px;
 	font-style: italic;
 	line-height: normal;
-	font-weight: bolder;
-	margin-bottom: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 20px;
 	color: #777;
 }
 
@@ -445,8 +447,9 @@ ul#navi_sidebar a {
 	font-size: 12px;
 	font-style: italic;
 	line-height: normal;
-	font-weight: bolder;
-	margin-bottom: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 20px;
 	color: #777;
 }
 .copy {
@@ -457,7 +460,8 @@ ul#navi_sidebar a {
 	line-height: 15px;
 	font-weight: lighter;
 	color: #777;
-	margin-bottom: 15px;
+	width: 320 px;
+	margin-top: 15px;
 	font-variant: normal;
 }
 .h1_impressum {
@@ -466,7 +470,7 @@ ul#navi_sidebar a {
 	font-style: normal;
 	line-height: 12px;
 	font-weight: bolder;
-	color: #A0CC3A;
+	color: #777;
 	font-variant: normal;
 	margin-bottom: 8px;
 }
@@ -490,6 +494,31 @@ ul#navi_sidebar a {
 	font-variant: normal;
 	margin-bottom: 12px;
 }
+
+/*rules for lines */
+
+.line_dashed {
+	border: none;
+	border-top: 1px dashed #A0CC3A;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	height: 1px;
+	width: 330px;	
+}
+
+.line_dashed_ergo {
+	border: none;
+	border-top: 1px dashed #CAC31E;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	height: 1px;
+	width: 330px;	
+}
+
 ul#content {
 	list-style-type: disc;
 	color: #A0CC3A;
@@ -525,6 +554,7 @@ p.copy a {
 	font-weight: lighter;
 	color: #777;
 	font-variant: normal;
+	margin-top: 20px;
 }
 
 #form_msg {
