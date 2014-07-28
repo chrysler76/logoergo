@@ -51,7 +51,7 @@
                 <p class="headline2_logo">Maria-Theres K&ouml;nig</p>
                 <br />
                 <br />
-                <p class="copy">Herthastraße 12
+                <p class="copy">Herthastra&szlig;e 12
                     <br />22179 Hamburg  
                     <br />
                     <br />Tel.: 040/ 38 66 83 80
