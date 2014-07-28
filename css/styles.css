@@ -78,7 +78,8 @@ img#homelink {
     overflow-x: hidden;
     height: 300px;
     margin-top: 70px;
-    padding-right: 50px;
+    padding-right: 15px;
+    width: 350px;
 }
 
 #sidebar {
